@@ -1,0 +1,137 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: arial;
+	text-align: center;
+	background: #30E3CA;
+	font-size: 20px;
+}
+nav {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 20px;
+	align-items: center;
+}
+
+.nav-itens {
+	list-style: none;
+	display: flex;
+	gap: 80px;
+}
+.nav-itens>li>a{
+	padding-left: 20px;
+	color: #000000;
+	text-decoration: none;
+}
+
+ header h1{
+	color: #11999E;
+	text-align: start;
+	padding: 60px 60px 5px 60px;
+ }
+ header h2{
+	color: #E4F9F5;
+	text-align: start;
+	padding-left: 60px;
+ }
+
+h2 {
+	color: #11999E;
+ }
+ p {
+	color: #E4F9F5;
+	text-align: start;
+	padding-left: 60px;
+ }
+.padin {
+	text-align: start;
+	padding-left: 60px;
+ }
+
+/*
+	Informações a respeitos dos membros da página
+*/
+
+.texto_negrito {
+	font-weight: bold;
+}
+.texto_destaque {
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.logosite {
+	float: left;
+	display: flex;
+	padding: 5px 16px;
+}
+
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 30px;
+	margin: 30px;
+}
+
+.member {
+	width: 300px;
+	height: 400px;
+	margin-bottom: 30px;
+	background-color: #f1f1f1;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.member img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	margin-bottom: 20px;
+}
+
+.member h3 {
+	margin-top: 0;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.member p {
+	margin-bottom: 0;
+	font-size: 18px;
+	text-align: center;
+}
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 120px;
+	margin-top: 2em;
+	background-color: #40514E;
+}
+
+#nossoTime {
+	justify-content: space-between;
+}
+td, th {
+	padding: .7em;
+	margin: 0;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+.comprer {
+	text-align: center;
+}
+table{
+	width: 100%;
+	gap: 20px;
+}
